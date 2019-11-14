@@ -11,7 +11,7 @@ To deploy this module:
 
 1. Install [Terraform](https://www.terraform.io/)
 
-1. Open up `vars.tf`, set the environment variables specified at the top of the file, and fill in `default` values for 
+1. Open up `variables.tf`, set the environment variables specified at the top of the file, and fill in `default` values for
    any variables in the "REQUIRED PARAMETERS" section.
 
 1. Run `terraform init`
