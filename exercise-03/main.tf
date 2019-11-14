@@ -28,7 +28,7 @@ resource "aws_instance" "web_server" {
               nohup busybox httpd -f -p "${var.http_port}" &
               EOF
 
-  tags {
+  tags = {
     Name = "${element(var.names, count.index)}"
   }
 }
